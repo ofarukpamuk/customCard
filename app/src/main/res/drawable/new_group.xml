@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <!-- Background -->
+            <item android:right="0dp" android:top="0dp">
+                <shape>
+                    <corners android:radius="@dimen/_5sdp" />
+                    <solid android:color="@color/dark_grey" /> <!-- Kırık beyaz renk -->
+                </shape>
+            </item>
+            <!-- Kenarlık -->
+            <item android:right="0dp" android:top="0dp">
+                <shape>
+                    <corners android:radius="@dimen/_5sdp" />
+                    <stroke android:width="0.5dp" android:color="@color/gray1" /> <!-- Koyu gri renk -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
